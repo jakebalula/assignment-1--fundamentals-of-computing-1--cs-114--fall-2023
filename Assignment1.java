@@ -18,13 +18,19 @@ public class Assignment1 {
     System.out.println("     JJJJJJJJJJ        BBBBBBBBBBBB");
     System.out.println("      JJJJJJJ          BBBBBBBBBB");
     System.out.println(); //Space added to make it look better on run
+
       Double number;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter a number in Farenheit:"); //Asks the user to enter a temp.
+        System.out.println("Please enter a number in Fahrenheit:"); //Asks the user to enter a temp.
             number = scan.nextDouble();
             System.out.println(number); //Prints out users response
-            Double celsius = (5.0 / 9.0) * (number - 32);
+            Double celsius = (5.0 / 9.0) * (number - 32); // Converts users input to celsius
           System.out.println(number + " in celsius is " + celsius);
+
+                Scanner reverse = new Scanner(System.in);
+                System.out.println("Please enter a 5-character string");
+              
+
 
 
   }
