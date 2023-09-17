@@ -25,13 +25,14 @@ public class Assignment1 {
             number = scan.nextDouble();
             System.out.println(number); //Prints out users response
             Double celsius = (5.0 / 9.0) * (number - 32); // Converts users input to celsius
-          System.out.println(number + " in celsius is " + celsius);
-
-                Scanner reverse = new Scanner(System.in);
+          System.out.println(number + " in celsius is " + celsius); //DELETE IN FINAL CODE
+                String reverse;
+                String change1, change2;
+                Scanner scan2 = new Scanner(System.in);
                 System.out.println("Please enter a 5-character string");
+                reverse = scan2.nextLine().substring(1 , 4);
+                change1 = reverse.substring(3, 2);
+                    System.out.println(change1);
               
-
-
-
   }
 }
