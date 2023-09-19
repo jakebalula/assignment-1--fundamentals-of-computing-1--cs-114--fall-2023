@@ -2,7 +2,6 @@
 // Jacob Balula
 import java.util.Random;
 import java.util.Scanner;
-import java.util.random.*;
 public class Assignment1 {
   public static void main(String[] args) {
     // Add your code here
@@ -33,16 +32,17 @@ public class Assignment1 {
                 Scanner scan2 = new Scanner(System.in);
                   System.out.println("Please enter a 5-character string");
                   reverse = scan2.nextLine().substring(1 , 4); //Removes first and last letter of users input
-                     //change1 = reverse.substring( 2, 3);
+                     change1 = reverse.substring( 2, 3);
                      System.out.println(reverse);
 
-        Random generator = new Random(); //Starting random number generator
-        int num1;
-          num1 = generator.nextInt(16384) + 30; //Picks number starting from 30 - 16384
+          Random generator = new Random(); //Starting random number generator
+            int num1;
+            num1 = generator.nextInt(16384) + 30; //Picks number starting from 30 - 16384
         
-          System.out.println(celsius + reverse + num1); //Prints out results from Temp. converter, Reverse string, and random number.
+  System.out.println(celsius + reverse + num1); //Prints out results from Temp. converter, Reverse string, and random number.
+
     scan.close();
     scan2.close();
-              
+
   }
 }
