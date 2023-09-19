@@ -24,7 +24,6 @@ public class Assignment1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a number in Fahrenheit:"); //Asks the user to enter a temp.
             number = scan.nextDouble();
-            //System.out.println(number); //Prints out users response
             Double celsius = (5.0 / 9.0) * (number - 32); // Converts users input to celsius
 
                 String reverse;
