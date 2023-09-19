@@ -32,7 +32,6 @@ public class Assignment1 {
                   System.out.println("Please enter a 5-character string");
                   reverse = scan2.nextLine().substring(1 , 4); //Removes first and last letter of users input
                      change1 = reverse.substring( 2, 3);
-                     System.out.println(reverse);
 
           Random generator = new Random(); //Starting random number generator
             int num1;
