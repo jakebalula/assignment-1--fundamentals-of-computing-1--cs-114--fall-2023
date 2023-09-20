@@ -28,11 +28,11 @@ public class Assignment1 {
                 Scanner scan2 = new Scanner(System.in); //Sets up scanner for use input
                   System.out.println("Please enter a 5-character string");
                   reverse = scan2.nextLine().substring(1 , 4); //Removes first and last letter of users input
-                  String change1 = new StringBuilder(reverse).reverse().toString();
+                  String change1 = new StringBuilder(reverse).reverse().toString(); //Reverses the string
 
           Random generator = new Random(); //Starting random number generator
             int num1;
-            num1 = generator.nextInt(16384) + 30; //Picks number starting from 30 - 16384
+            num1 = generator.nextInt(16384) + 32; //Picks number starting from 32 - 16384
               System.out.println("Generating random number...");
         
   System.out.println(celsius + change1 + num1); //Prints out results from Temp. converter, Reverse string, and random number.
