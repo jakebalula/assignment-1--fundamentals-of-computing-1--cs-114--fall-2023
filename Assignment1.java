@@ -1,10 +1,8 @@
-// Import libraries here
 // Jacob Balula
 import java.util.Random;
 import java.util.Scanner;
 public class Assignment1 {
   public static void main(String[] args) {
-    // Add your code here
     System.out.println(); //Space added to make it look better on run
     //Series of println to make block letters
     System.out.println("   JJJJJJJJJJJJJJJ     BBBBBBBBBB");
