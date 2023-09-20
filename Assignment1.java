@@ -27,18 +27,17 @@ public class Assignment1 {
             Double celsius = (5.0 / 9.0) * (number - 32); // Converts users input to celsius
 
                 String reverse;
-                String change1;
                 Scanner scan2 = new Scanner(System.in); //Sets up scanner for use input
                   System.out.println("Please enter a 5-character string");
                   reverse = scan2.nextLine().substring(1 , 4); //Removes first and last letter of users input
-                     change1 = reverse.substring( 2, 3);
+                  String change1 = new StringBuilder(reverse).reverse().toString();
 
           Random generator = new Random(); //Starting random number generator
             int num1;
             num1 = generator.nextInt(16384) + 30; //Picks number starting from 30 - 16384
               System.out.println("Generating random number...");
         
-  System.out.println(celsius + reverse + num1); //Prints out results from Temp. converter, Reverse string, and random number.
+  System.out.println(celsius + change1 + num1); //Prints out results from Temp. converter, Reverse string, and random number.
 
     scan.close();
     scan2.close();
